@@ -226,6 +226,8 @@ Messages from publishers are only stored once on a stream, and can be consumed a
 Consumers are grouped together for consuming messages. Each group of consumers is a subscription on a stream. Each consumer group can have its own way of consuming the messages—exclusively, shared, or failover.
 
 ## Stream Processing
+!!! note
+    Currently, Strem workers are available only to Enterprise clients.
 
 GDN is fundamentally a real-time materialized view engine. Streams & stream processing are intregral part of GDN. Stream processing feature provides users geo-replicated stream data processing capabilities to integrate streaming data and takes action based on streaming data.
 
